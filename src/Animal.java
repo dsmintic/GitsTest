@@ -5,9 +5,9 @@ public class Animal {
     private int num;
 
 
-    public Animal(String name, String type) {
+    public Animal(String name, String type, int num) {
         this.name = name;
         this.type = type;
+        this.num = num;
     }
-
 }
