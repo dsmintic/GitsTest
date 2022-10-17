@@ -4,6 +4,7 @@ public class Main {
         Person person1 = new Person("Damir Šmintić", "Zagreb");
         System.out.println(person1.getName() + " - " + person1.getCity());
         System.out.println(person1.getName());
+        System.out.println(person1.getCity());
 
     }
 }
