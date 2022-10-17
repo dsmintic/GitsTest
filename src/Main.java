@@ -1,0 +1,8 @@
+public class Main {
+    public static void main(String[] args) {
+
+        Person person1 = new Person("Damir Šmintić", "Zagreb");
+        System.out.println(person1.getName() + " - " + person1.getCity());
+
+    }
+}
